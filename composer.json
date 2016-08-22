@@ -1,5 +1,5 @@
 {
-  "name":        "yigitnerukuc/usps-php-api",
+  "name":        "yigitcukuren/usps-php-api",
   "type":        "library",
   "description": "PHP wrapper for USPS Web Tools API",
   "keywords":    ["usps", "api"],
