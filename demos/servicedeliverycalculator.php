@@ -13,10 +13,9 @@ $delivery->addRoute(3, '91730', '90025');
 var_dump($delivery->getServiceDeliveryCalculation());
 var_dump($delivery->getArrayResponse());
 
-
 // Check if it was completed
 if ($delivery->isSuccess()) {
     echo 'Done';
 } else {
-    echo 'Error: ' . $delivery->getErrorMessage();
+    echo 'Error: '.$delivery->getErrorMessage();
 }
